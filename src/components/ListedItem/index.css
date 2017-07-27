@@ -1,0 +1,66 @@
+.listing {
+    border: 1px solid #efefef;
+    padding: 0;
+    box-sizing: border-box;
+    width: 235px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.listingImage {
+    width: 140px;
+    height: 140px;
+}
+
+.listingTop {
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.listingDetails {
+    height: 73px;
+    width: 100%;
+    background-color: #efefef;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.listingPricing {
+    float: left;
+    padding-top: 2px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    -moz-text-decoration-color: red;
+    text-decoration-color: red;
+}
+
+.blueButton {
+    float: right;
+    background-color: #ffffff; /* Green */
+    border: 1px solid;
+    color: #0099ff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.blueButton:hover {
+    color: #ffffff;
+    background-color: #0099ff;
+}
+
+.discountedPrice {
+    padding-left: 5px;
+}
+
+.listingAlign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

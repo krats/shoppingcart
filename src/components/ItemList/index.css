@@ -1,0 +1,7 @@
+.itemListing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px !important;
+}

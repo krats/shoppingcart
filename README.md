@@ -1,0 +1,1 @@
+Shopping cart in react, redux, react-router. shopping cart items are stored in localstorage.

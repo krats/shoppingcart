@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px !important;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.headerButton {
+    float: right;
+    background-color: #ffffff; /* Green */
+    border: 1px solid;
+    color: #0099ff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 2px;
+    height: 30px;
+}
+
+.headerButton:hover {
+    color: #ffffff;
+    background-color: #0099ff;
+}

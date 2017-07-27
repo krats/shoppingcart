@@ -1,0 +1,42 @@
+.cartItem {
+    width: 600px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartItemNamePrice {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.cartItemQty {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.cartItemName {
+    border: 1px solid #efefef;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartItemImage {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.centerVertically {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.crossButton {
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cartRow {
+    width: 1000px;
+}
+
+.cartRowflex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.cartLeft {
+    width: 600px !important;
+}
+.cartHeader {
+    border-bottom: 1px solid #efefef;
+    padding: 5px;
+    width: 600px !important;
+}
+
+.backButton {
+    padding-right: 10px;
+    color: #0099ff;
+}
+
+.cartSummary {
+    border-bottom: 1px solid #efefef;
+    padding: 5px;
+    width: 600px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    width: 300px;
+}
+
+.second {
+    width: 50px;
+}
+
+.third {
+    width: 50px;
+}
+
+.cartRight {
+    width: 250px !important;
+    border: 1px solid #efefef;
+    position: fixed;
+    margin-left: 650px;
+}
+
+.cartRightTop {
+    padding: 10px;
+}
+
+.summaryHeader {
+    font-weight: bold;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.total {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.orderTotal {
+    width: 100%;
+    background-color: #efefef;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
